@@ -7,7 +7,7 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    'gatsby-plugin-Image',
-    'gatsby-plugin-sharp',
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 }
