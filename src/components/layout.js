@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle,
 } from "./layout.module.css";
+import { justifyItems } from "styled-system";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
@@ -19,6 +20,7 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `);
+
   return (
     <div className={container}>
       <header className={siteTitle}>{data.site.siteMetadata.title}</header>
