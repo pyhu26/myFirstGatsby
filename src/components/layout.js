@@ -8,7 +8,6 @@ import {
   navLinkText,
   siteTitle,
 } from "./layout.module.css";
-import { justifyItems } from "styled-system";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
